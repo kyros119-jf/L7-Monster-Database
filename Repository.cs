@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-public class Repository<T> 
+public class Repository<T>
 {
     private List<T> items = new List<T>();
 

@@ -22,7 +22,7 @@ public class Monster
 
     public string GetDangerLevel() => Level < 5 ? "Low" : Level < 10 ? "Medium" : "High";
 
-    public string GetMonsterInfo() => $"Name: {Name}, Level: {Level}, Health: {Health}";
+    public string GetMonsterInfo() => $"Name: {Name} | Level: {Level} | Health: {Health}";
 
 
 }
